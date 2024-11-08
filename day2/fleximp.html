@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .parent{
+            border: 2px solid;
+            height: 800px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            align-content: space-evenly;
+            background-color:beige;
+        }
+        .Box{
+            border: 2px ;
+            height: 250px;
+            width: 250px;
+            background-color: beige;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            box-shadow: 20px 20px 50px 15px grey;
+            
+        }
+        ul {
+            list-style-type: none;
+            line-height: 28px;
+    }
+    button{
+        background-color: lightgreen;
+    }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="Box" id="Box-1">
+            <ul>
+                <li><h2>Basic</h2></li>
+                <li>$10 / month</li>
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li><button>Sign Up</button></li>
+            </ul>
+            
+        </div>
+        <div class="Box" id="Box-2">
+            <ul>
+                <li><h2>Premium</h2></li>
+                <li>$30 / month</li>
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+                <li><button>Sign Up</button></li>
+            </ul>
+        </div>
+        <div class="Box" id="Box-3">
+            <ul>
+                <li><h2>Pro</h2></li>
+                <li>$50 / month</li>
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+                <li>Feature 4</li>
+                <li><button>Sign Up</button></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
